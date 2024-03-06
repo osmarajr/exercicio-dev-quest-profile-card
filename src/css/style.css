@@ -1,0 +1,15 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container.card{
+    background-color: #fff;
+}
+.perfil.dados.foto{
+    border-radius: 50px;
+}
