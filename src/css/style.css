@@ -9,7 +9,43 @@ body{
 }
 .container.card{
     background-color: #fff;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.container.card.topo img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.perfil.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block: 10px
 }
 .perfil.dados.foto{
-    border-radius: 50px;
+    border-radius: 100%;
+    width: 96px;
+    height: 96px;
 }
+
+.perfil.dados.nome-idade{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 10px;
+}
+.perfil.dados.endereco{
+    margin-bottom: 20px;
+}
+
+.numero-seguidores{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
