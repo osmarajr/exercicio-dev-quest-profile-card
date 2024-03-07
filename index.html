@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/variables.css">
   <link rel="stylesheet" href="./src/css/style.css">
@@ -14,28 +17,31 @@
     <section>
       <!-- card -->
       <div class="container card">
-        <!-- topo -->
-        <div class="container card topo">
-          <img src="src/images/bg-pattern-card.svg" alt="">
-        </div>
+        <img src="src/images/image-victor.jpg" alt="foto do perfil">
         <!-- perfil dados -->
-        <div class="perfil dados">
-          <img src="src/images/image-victor.jpg" alt="foto do perfil" class="perfil dados foto">
-          <p class="perfil dados nome-idade">
-            <strong class="perfil dados nome-idade nome">Victor Crest</strong><span class="perfil dados nome-idade idade">26</span>
+        <div class="card dados">
+          <p class="dados nome-idade">
+            <span class="dados nome-idade nome"><strong>Victor Crest</strong></span>
+            <span class="dados nome-idade idade">26</span>
           </p>
           
-          <p class="perfil dados endereco">London</p>
+          <p class="dados endereco">London</p>
         </div>
         <!-- rodape -->
         <div class="numero-seguidores">
-          <span class="numero-seguidores follow">80K</span>
-          <span class="numero-seguidores like">803K</span>
-          <span class="numero-seguidores photos">1.4K</span>
+          <table>
+            <tr class="numero-seguidores valores">
+              <td><strong>80K</strong></td>
+              <td><strong>803K</strong></td>
+              <td><strong>1.4K</strong></td>
+            </tr>
+            <tr class="numero-seguidores descricao">
+              <td>Followers</td>
+              <td>Likes</td>
+              <td>Photos</td>
+            </tr>
+          </table>
         </div>
-      </div>
-
-
     </section>
   </main>
 </body>

@@ -1,4 +1,6 @@
 :root{
     --background-color: hsl(185, 75%, 39%);
     --text-color: hsl(227, 10%, 46%);
+    --titulo-color: #242635;
+    --font-kumbh: "Kumbh Sans", sans-serif;
 }
