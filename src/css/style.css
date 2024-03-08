@@ -8,6 +8,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+hr{
+    width: 100%;
+}
+
 .container.card{
     background-color: #fff;
     width: 350px;
@@ -50,7 +55,7 @@ body{
     padding-top: 20px;
     color: var(--text-color);
 }
-.numero-seguidores{
+/* .numero-seguidores{
     width: 20em;
     display: flex;
     flex-direction: row;
@@ -66,4 +71,12 @@ body{
 .numero-seguidores.descricao{
     color: var(--text-color);
     font-weight: 400;
+} */
+.numero-seguidores ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
 }
