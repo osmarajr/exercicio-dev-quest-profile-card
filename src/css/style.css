@@ -55,28 +55,15 @@ hr{
     padding-top: 20px;
     color: var(--text-color);
 }
-/* .numero-seguidores{
-    width: 20em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-block: 10px;
-}
-.numero-seguidores.valores{
-    color: var(--titulo-color);
-    font-weight: 700;
-    width: 100%;
-}
-.numero-seguidores.descricao{
-    color: var(--text-color);
-    font-weight: 400;
-} */
+
 .numero-seguidores ul{
     display: flex;
-    align-items:center;
-    justify-content: space-around;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 30px;
+    flex-direction: row;
+    padding-block: 20px;
+}
+.numero-seguidores ul li{
+    padding-inline: 25px;
+}
+.info p{
+    font-weight: 700;
 }
